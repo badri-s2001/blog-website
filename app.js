@@ -21,7 +21,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-badri:test123@cluster0.swjtn.mongodb.net/blogDB?retryWrites=true&w=majority", { 
+mongoose.connect("mongodb+srv://admin-badri:test123@cluster0.t6shp.mongodb.net/blogDB?retryWrites=true&w=majority", { 
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
